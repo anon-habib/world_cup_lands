@@ -44,18 +44,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
 }
 .left-content a {
+    font-size: 20px;
     text-decoration: none;
     font-weight: 700;
+    transition: 1s;
+}
+.left-content a:hover i {
+    transform: translateX(80%);
 }
 .left-content i {
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
+    transition: 1.3s;
 }
 .left-content button {
+    background-color: #dd0000;
+    color: #ffffff;
     padding: 15px 30px;
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+.left-content button:focus {
+    outline: none;
 }
 .right-content {
     width: 40%;
@@ -157,11 +168,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 20px 0 40px;
 }
-.common-button {
+.view {
     text-align: center;
     margin-bottom: 30px;
 }
-.common-button button {
+.view button {
     background-color: #dd0000;
     padding: 15px 30px;
     border-radius: 10px;
@@ -169,19 +180,19 @@ h1, h2, h3, h4, h5, h6 {
     outline: none;
     transition: .3s;
 }
-.common-button button:focus {
+.view button:focus {
     outline: none;
 }
-.common-button button:hover {
+.view button:hover {
     outline: none;
     color: #dd0000;
     background-color: #ffffff;
     border: 1px solid #dd0000;
 }
-.common-button button:hover a {
+.view button:hover a {
     color: #dd0000;
 }
-.common-button a {
+.view a {
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;

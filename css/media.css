@@ -30,6 +30,9 @@
         font-size: 20px;
         margin-left: 0;
     }
+    .left-content a:hover i {
+        transform: translateX(30%);
+    }
     .left-content button {
         padding: 5px 10px;
     }
@@ -111,6 +114,9 @@
     .left-content i {
         font-size: 20px;
         margin-left: 5px;
+    }
+    .left-content a:hover i {
+        transform: translateX(50%);
     }
     .left-content button {
         padding: 10px 20px;
