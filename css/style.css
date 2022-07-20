@@ -182,8 +182,11 @@ footer {
     margin: 80px auto;
 }
 .footer-nav {
-    color: #b9b9b9;
     display: flex;
     justify-content: space-around;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: #b9b9b9;
 }
 /* footer end */
