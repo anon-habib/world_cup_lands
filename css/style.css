@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .left-content {
     width: 40%;
     padding: 0 15px 0px 15px;
+    margin-bottom: 10px;
     color: #ffffff;
 }
 .left-content h1 {
