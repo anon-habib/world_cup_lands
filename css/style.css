@@ -157,6 +157,36 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 20px 0 40px;
 }
+.common-button {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.common-button button {
+    background-color: #dd0000;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: .3s;
+}
+.common-button button:focus {
+    outline: none;
+}
+.common-button button:hover {
+    outline: none;
+    color: #dd0000;
+    background-color: #ffffff;
+    border: 1px solid #dd0000;
+}
+.common-button button:hover a {
+    color: #dd0000;
+}
+.common-button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    transition: .3s;
+}
 /* upcoming section end */
 
 /* footer start */

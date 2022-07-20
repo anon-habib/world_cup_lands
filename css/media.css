@@ -61,6 +61,9 @@
         margin: 10px 0;
         padding: 12px 0px;
     }
+    .view {
+        display: none;
+    }
 
     /* footer start */
     .footer-inner {
@@ -142,6 +145,9 @@
         margin: 0;
         padding: 15px 50px;
     }
+    .view {
+        display: block;
+    }
     
     /* footer start */
     .footer-inner {
@@ -165,5 +171,7 @@
 
 /* PC, Laptop Screen */
 @media only screen and (min-width: 1024px) {
-    
+    .view {
+        display: none;
+    }    
 }
