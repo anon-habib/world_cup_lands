@@ -11,10 +11,14 @@ body {
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 400;
 }
+section {
+    margin-bottom: 100px;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Ibarra Real Nova', serif !important;
     font-weight: 700;
 }
+/* banner start */
 .top {
     background-color: #161616;
     display: flex;
@@ -26,10 +30,37 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }
 .left-content h1 {
-    font-size: 70px;    
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.left-content p {
+    margin-bottom: 30px;
+}
+.left-content a {
+    text-decoration: none;
+    font-weight: 700;
+}
+.left-content i {
+    font-size: 20px;
+    margin-left: 10px;
 }
 .left-content button {
-    padding: 1px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@keyframes button-i {
+    0% {
+        left: 0;
+    }
+    100% {
+        right: 0;
+    }
+}
+.left-content button:hover i {
+    position: absolute;
+    animation: button-i 3s .3s 1 right;
 }
 .right-content {
     width: 40%;
@@ -37,3 +68,33 @@ h1, h2, h3, h4, h5, h6 {
 .right-image img {
     width: 100%;
 }
+/* banner end */
+
+/* blog section start */
+.blog-right-content {
+    width: 220px;
+}
+.nav {
+    background-color: #161616;
+    padding: 10px 20px;
+}
+.nav a {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #161616;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* blog section end */
