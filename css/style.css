@@ -15,3 +15,25 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Ibarra Real Nova', serif !important;
     font-weight: 700;
 }
+.top {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+}
+.left-content {
+    width: 40%;
+    padding: 60px;
+    color: #ffffff;
+}
+.left-content h1 {
+    font-size: 70px;    
+}
+.left-content button {
+    padding: 1px;
+}
+.right-content {
+    width: 40%;
+}
+.right-image img {
+    width: 100%;
+}
