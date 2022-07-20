@@ -189,14 +189,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ffffff;
     border: 1px solid #dd0000;
 }
-.view button:hover a {
-    color: #dd0000;
-}
 .view a {
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
     transition: .3s;
+}
+.view button:hover a {
+    color: #dd0000;
 }
 /* upcoming section end */
 
