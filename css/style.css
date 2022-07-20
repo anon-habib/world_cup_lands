@@ -89,6 +89,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 0;
     padding: 20px 10px;
     border-radius: 10px;
+    transition: .3s;
+}
+.nav a:hover {
+    color: #ffffff;
+    background-color: #ffcccb;
 }
 .blog-right-content {
     display: grid;
@@ -117,6 +122,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 7px 12px;
     border: 1px solid #161616;
     border-radius: 5px;
+    transition: .3s;
+}
+.transfer a:hover {
+    color: #ffffff;
+    background-color: #161616;
 }
 .bloginfo {
     margin: 20px 0 30px;
@@ -129,6 +139,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 30px;
 }
 /* blog section end */
+
+/* upcoming sectio start */
+.match-teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px 0;
+}
+.match-teams img {
+    width: 100%;
+}
+.match-teams h3 {
+    margin: 0 10px 0;
+}
+.match-time {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+
+
+
+/* upcoming section end */
 
 /* footer start */
 footer {
