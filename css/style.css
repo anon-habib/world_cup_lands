@@ -9,7 +9,12 @@
 }
 body {
     font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
     font-weight: 400;
+}
+main {
+    width: 85%;
+    margin: 0 auto;
 }
 section {
     margin-bottom: 100px;
@@ -23,10 +28,11 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #161616;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .left-content {
     width: 40%;
-    padding: 60px;
+    padding: 0 15px 0px 15px;
     color: #ffffff;
 }
 .left-content h1 {
@@ -50,18 +56,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
     cursor: pointer;
 }
-@keyframes button-i {
-    0% {
-        left: 0;
-    }
-    100% {
-        right: 0;
-    }
-}
-.left-content button:hover i {
-    position: absolute;
-    animation: button-i 3s .3s 1 right;
-}
 .right-content {
     width: 40%;
 }
@@ -71,12 +65,18 @@ h1, h2, h3, h4, h5, h6 {
 /* banner end */
 
 /* blog section start */
-.blog-right-content {
-    width: 220px;
+.blog-contents {
+    display: flex;
+}
+.blog-left-content {
+    width: 330px;
+    margin-right: 20px;
+    border-radius: 10px;    
 }
 .nav {
     background-color: #161616;
     padding: 10px 20px;
+    border-radius: 10px;
 }
 .nav a {
     display: block;
@@ -90,11 +90,73 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 10px;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
+.blog-right-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.upcoming-match {
+    /* box-shadow: 1px 1px 7px 1px #161616; */
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+}
+.match-image img {
+    width: 100%;
+}
+.right-content-inner {
+    padding: 15px 0px 0 30px;
+}
+.transfer {
+    margin: 5px 0px 20px 0px;
+}
+.transfer a {
+    font-weight: 700;
+    color: #161616;
+    text-decoration: none;
+    padding: 7px 12px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.bloginfo {
+    margin: 20px 0 30px;
+}
+.bloginfo i {
+    color: #161616;
+    margin-right: 10px;
+}
+.bloginfo i:last-child {
+    margin-left: 30px;
+}
 /* blog section end */
+
+/* footer start */
+footer {
+    background-color: #161616;
+}
+.footer-inner {
+    padding: 100px 0;
+}
+.footer-inner h1 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+.hr {
+    width: 85%;
+    height: 1px;
+    background-color: #2c2c2c;
+    margin: 80px auto;
+}
+.footer-nav {
+    color: #b9b9b9;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+/* footer end */
