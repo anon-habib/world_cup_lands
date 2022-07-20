@@ -1,2 +1,17 @@
 /* fonts */ /* font-family: 'Ibarra Real Nova', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap');
+
+/* commons */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ibarra Real Nova', serif !important;
+    font-weight: 700;
+}
